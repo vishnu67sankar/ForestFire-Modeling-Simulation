@@ -1,6 +1,6 @@
 # Forest Fire Modeling and Simulation
 
-In this work a forest fire is modeled using the SEIQRDP model. The SEIQRDP model is originally used for disease transmission, and it is a 1D model. It is modified and adapted for a 2D forest fire model, whose implementation  can be found in the jupyter notebook. The output from the model is visualized below:
+In this work a forest fire is modeled using the SEIQRDP model. The SEIQRDP model is originally used for disease transmission, and it is a 1D model. It is modified and adapted for a 2D forest fire model which is solved by a custom built RK4 method. Its implementation  can be found in the jupyter notebook. The output from the model is visualized below:
 
 ![Spatial SEIQRDP model diagram](output/fire_spread.gif)
 
