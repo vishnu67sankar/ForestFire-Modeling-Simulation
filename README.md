@@ -1,17 +1,10 @@
 # Forest Fire Modeling and Simulation
 
-In this work a forest fire is modeled using the SEIQRDP model. Details of this model can be found in the paper attached below
+In this work a forest fire is modeled using the SEIQRDP model. The SEIQRDP model is originally used for disease transmission, and it is a 1D model. It is modified and adapted for a 2D forest fire model, whose implementation  can be found in the jupyter notebook. The output from the model is visualized below:
 
-```bibtex
-@article{wilta2022generalized,
-  title={Generalized Susceptible--Exposed--Infectious--Recovered model and its contributing factors for analysing the death and recovery rates of the COVID-19 pandemic},
-  author={Wilta, Felin and Chong, Allyson Li Chen and Selvachandran, Ganeshsree and Kotecha, Ketan and Ding, Weiping},
-  journal={Applied soft computing},
-  volume={123},
-  pages={108973},
-  year={2022},
-  publisher={Elsevier}
-}
-```
+![Spatial SEIQRDP model diagram](output/fire_spread.gif)
 
-The SEIQRDP model from the paper above is modified and adapted for a 2D forest fire. Details of how it is extrapolated to a 2D model can be found in the jupyter notebook. 
+Details of the original SEIQRDP model for disease transmission can be found in the paper below
+## Citations
+
+Wilta, F., Chong, A. L. C., Selvachandran, G., Kotecha, K., & Ding, W. (2022). Generalized Susceptible--Exposed--Infectious--Recovered model and its contributing factors for analysing the death and recovery rates of the COVID-19 pandemic. *Applied Soft Computing*, *123*, 108973. [Link to Paper](https://doi.org/10.1016/j.asoc.2022.108973)
